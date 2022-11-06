@@ -5,6 +5,7 @@
 
 body{
     background-color: teal;
+    font-family: "Permanent Marker";
 }
 
 .title{
@@ -28,11 +29,22 @@ body{
 
 .navbtn Button {
     height: 5rem;
+    width: 100%;
     font-size: 20px;
-    animation: buttonhover 3s;
+    border-radius: 25px;
+    font-family: "Permanent Marker";
 }
 
-.navbtn Button:hover{
-    background-color: teal;
-    color: white;
+.iconprofile{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 30px;
+}
+
+.link-nav{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 100%;
 }

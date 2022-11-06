@@ -3,8 +3,10 @@ import './style.css'
 
 function CVPage() {
   return (
-    <div>
-      CVPage
+    <div className='pdf-container'>
+      <div className='pdf-reader'>
+
+      </div>
     </div>
   )
 }

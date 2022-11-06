@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  height: 30rem;
+  margin: auto;
+  margin-top: 9rem;
+  border: 5px solid black;
+  background-color: white;
+  border-radius: 10%;
+}
+
+.card-icons {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 70%;
+  gap: 50px;
+  margin-top: 4.5rem;
+}
+
+.card-descriptions {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  gap: 50px;
+  margin-top: 4.5rem;
+}
+
+.card-descriptions p,
+a {
+  font-size: 22px;
+}

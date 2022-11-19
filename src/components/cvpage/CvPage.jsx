@@ -1,12 +1,16 @@
-import React from 'react'
-import './style.css'
+import React, { useState } from "react";
+import "./style.css";
+import Button from "react-bootstrap/Button";
+import Fade  from "react-bootstrap/Fade";
 
 function CVPage() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <div>
-      CVPage
-    </div>
-  )
+    <>
+    
+    </>
+  );
 }
 
-export default CVPage
+export default CVPage;

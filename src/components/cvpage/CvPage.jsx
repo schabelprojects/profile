@@ -1,14 +1,16 @@
-import React from 'react'
-import './style.css'
+import React, { useState } from "react";
+import "./style.css";
+import Button from "react-bootstrap/Button";
+import Fade  from "react-bootstrap/Fade";
 
 function CVPage() {
-  return (
-    <div className='pdf-container'>
-      <div className='pdf-reader'>
+  const [open, setOpen] = useState(false);
 
-      </div>
-    </div>
-  )
+  return (
+    <>
+    
+    </>
+  );
 }
 
-export default CVPage
+export default CVPage;

@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.card {
+.card-container {
   display: flex;
   flex-direction: row;
   width: 45%;

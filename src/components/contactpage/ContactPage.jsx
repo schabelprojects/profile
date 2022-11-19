@@ -9,7 +9,7 @@ import linkedinicon from "../../icons/linkedin.svg";
 function ContactPage() {
   return (
     <div className="container">
-      <div className="card">
+      <div className="card-container">
         <div className="card-icons">
           <img src={iconperson} alt="" />
           <img src={mapicon} alt="" />

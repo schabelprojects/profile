@@ -6,7 +6,7 @@ function ProfilePage() {
     <>
       <div className="wrapper">
         <div className="collapse">
-          <input type="checkbox"  id="collapsible-head" />
+          <input type="checkbox" id="collapsible-head" />
           <label for="collapsible-head">Motivation</label>
           <div className="collapse-text">
             <h2>Motivation</h2>
@@ -21,7 +21,7 @@ function ProfilePage() {
       </div>
       <div className="wrapper2">
         <div className="collapse2">
-          <input type="checkbox"  id="collapsible-head2" />
+          <input type="checkbox" id="collapsible-head2" />
           <label for="collapsible-head2">Motivation</label>
           <div className="collapse-text2">
             <h2>Motivation</h2>
@@ -36,7 +36,7 @@ function ProfilePage() {
       </div>
       <div className="wrapper3">
         <div className="collapse3">
-          <input type="checkbox"  id="collapsible-head3" />
+          <input type="checkbox" id="collapsible-head3" />
           <label for="collapsible-head3">Motivation</label>
           <div className="collapse-text3">
             <h2>Motivation</h2>

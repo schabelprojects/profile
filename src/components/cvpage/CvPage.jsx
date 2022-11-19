@@ -1,14 +1,32 @@
-import React, { useState } from "react";
+import React from "react";
 import "./style.css";
-import Button from "react-bootstrap/Button";
-import Fade  from "react-bootstrap/Fade";
+import CVFirstPage from "../../documents/firstpage_cv.png";
+import CVSecondPage from "../../documents/secondpage_cv.png";
+import Axios from "axios";
+import FileDownload from "js-file-download";
 
 function CVPage() {
-  const [open, setOpen] = useState(false);
+  const handleDownload = (e) => {
+    e.preventDefault();
+    Axios({
+      url: "http://localhost:4000",
+      method: "GET",
+      responseType: "blob",
+    }).then((res) => {
+      console.log(res);
+      FileDownload(res.data, "cv.pdf");
+    });
+  };
 
   return (
     <>
-    
+      <div className="cv-container">
+        <img src={CVFirstPage} alt="" />
+        <img src={CVSecondPage} alt="" />
+      </div>
+      <div className="download-btn">
+        <button onClick={(e) => handleDownload(e)}>Download</button>
+      </div>
     </>
   );
 }

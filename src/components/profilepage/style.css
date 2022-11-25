@@ -62,6 +62,8 @@
     opacity: 0.5;
     transition: all 0.3s ease;
     font-family: Montserrat Thin;
+    overflow: scroll;
+    text-align: justify;
 }
 
 .collapse input:checked ~ .collapse-text{
@@ -146,6 +148,8 @@
       opacity: 0.5;
       transition: all 0.3s ease;
       font-family: Montserrat Thin;
+      text-align: justify;
+      overflow: scroll;
   }
   
   .collapse2 input:checked ~ .collapse-text2{
@@ -229,6 +233,8 @@
       opacity: 0.5;
       transition: all 0.3s ease;
       font-family: Montserrat Thin;
+      text-align: justify;
+      overflow: scroll;
   }
   
   .collapse3 input:checked ~ .collapse-text3{
@@ -249,6 +255,261 @@
   }
   
   .collapse-text3 p{
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .wrapper4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  
+  .collapse4 {
+    max-width: 450px;
+    overflow: hidden;
+    font-weight: 500;
+  }
+  
+  .collapse4 input{
+      display: none;
+  }
+  
+  .collapse4 label {
+    position: relative;
+    font-weight: 600;
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
+      11px 0 rgba(0, 0, 0, 0.08);
+    color: purple;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 1;
+    font-family: Montserrat Thin;
+  }
+  
+  .collapse4 label::after {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 18px;
+    height: 18px;
+    background: url("../../icons/caret-right-fill.svg") no-repeat 0 0;
+    transition: all 0.3s ease;
+  }
+  
+  .collapse4 input:checked + label::after{
+      transform: rotate(90deg);
+  }
+  
+  
+  .collapse-text4{
+      max-height: 1px;
+      overflow: hidden;
+      border-radius: 4px;
+      line-height: 1.4;
+      position: relative;
+      top: -100%;
+      opacity: 0.5;
+      transition: all 0.3s ease;
+      font-family: Montserrat Thin;
+      text-align: justify;
+      overflow: scroll;
+  }
+  
+  .collapse4 input:checked ~ .collapse-text4{
+      max-height: 300px;
+      padding-bottom: 25px;
+      background: #fff;
+      box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
+      11px 0 rgba(0, 0, 0, 0.08);
+      opacity: 1;
+      top: 0;
+  }
+  
+  .collapse-text4 h2{
+      margin-bottom: 10px;
+      padding: 15px 15px 0;
+      color: purple;
+      font-family: Montserrat Thin;
+  }
+  
+  .collapse-text4 p{
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .wrapper5{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  
+  .collapse5 {
+    max-width: 450px;
+    overflow: hidden;
+    font-weight: 500;
+  }
+  
+  .collapse5 input{
+      display: none;
+  }
+  
+  .collapse5 label {
+    position: relative;
+    font-weight: 600;
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
+      11px 0 rgba(0, 0, 0, 0.08);
+    color: purple;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 1;
+    font-family: Montserrat Thin;
+  }
+  
+  .collapse5 label::after {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 18px;
+    height: 18px;
+    background: url("../../icons/caret-right-fill.svg") no-repeat 0 0;
+    transition: all 0.3s ease;
+  }
+  
+  .collapse5 input:checked + label::after{
+      transform: rotate(90deg);
+  }
+  
+  
+  .collapse-text5{
+      max-height: 1px;
+      overflow: hidden;
+      border-radius: 4px;
+      line-height: 1.4;
+      position: relative;
+      top: -100%;
+      opacity: 0.5;
+      transition: all 0.3s ease;
+      font-family: Montserrat Thin;
+      text-align: justify;
+      overflow: scroll;
+  }
+  
+  .collapse5 input:checked ~ .collapse-text5{
+      max-height: 300px;
+      padding-bottom: 25px;
+      background: #fff;
+      box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
+      11px 0 rgba(0, 0, 0, 0.08);
+      opacity: 1;
+      top: 0;
+  }
+  
+  .collapse-text5 h2{
+      margin-bottom: 10px;
+      padding: 15px 15px 0;
+      color: purple;
+      font-family: Montserrat Thin;
+  }
+  
+  .collapse-text5 p{
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .wrapper6{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  
+  .collapse6 {
+    max-width: 450px;
+    overflow: hidden;
+    font-weight: 500;
+  }
+  
+  .collapse6 input{
+      display: none;
+  }
+  
+  .collapse6 label {
+    position: relative;
+    font-weight: 600;
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
+      11px 0 rgba(0, 0, 0, 0.08);
+    color: purple;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 1;
+    font-family: Montserrat Thin;
+  }
+  
+  .collapse6 label::after {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 18px;
+    height: 18px;
+    background: url("../../icons/caret-right-fill.svg") no-repeat 0 0;
+    transition: all 0.3s ease;
+  }
+  
+  .collapse6 input:checked + label::after{
+      transform: rotate(90deg);
+  }
+  
+  
+  .collapse-text6{
+      max-height: 1px;
+      overflow: hidden;
+      border-radius: 4px;
+      line-height: 1.4;
+      position: relative;
+      top: -100%;
+      opacity: 0.5;
+      transition: all 0.3s ease;
+      font-family: Montserrat Thin;
+      text-align: justify;
+      overflow: scroll;
+  }
+  
+  .collapse6 input:checked ~ .collapse-text6{
+      max-height: 300px;
+      padding-bottom: 25px;
+      background: #fff;
+      box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
+      11px 0 rgba(0, 0, 0, 0.08);
+      opacity: 1;
+      top: 0;
+  }
+  
+  .collapse-text6 h2{
+      margin-bottom: 10px;
+      padding: 15px 15px 0;
+      color: purple;
+      font-family: Montserrat Thin;
+  }
+  
+  .collapse-text6 p{
       padding-left: 15px;
       padding-right: 15px;
   }

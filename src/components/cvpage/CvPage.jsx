@@ -14,7 +14,7 @@ function CVPage() {
       responseType: "blob",
     }).then((res) => {
       console.log(res);
-      FileDownload(res.data, "cv.pdf");
+      FileDownload(res.data, "cv_samirschabel.pdf");
     });
   };
 

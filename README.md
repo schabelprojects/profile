@@ -17,7 +17,7 @@ npm run dev
 
 and then starting the server by typing ```node index.js```
 
-then you can click the "Download" button on the CV Page.
+then you can click the "Download" button on the CV Page. For further information just watch the introduction video.
 
 !!! If any complications happen feel free to write me a message !!!
 

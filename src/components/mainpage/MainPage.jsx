@@ -6,6 +6,7 @@ import iconcv from "../../icons/person-lines-fill.svg";
 import telephone from "../../icons/telephone-fill.svg";
 import { Link } from "react-router-dom";
 
+
 function MainPage() {
   return (
     <>

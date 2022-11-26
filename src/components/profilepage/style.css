@@ -23,10 +23,10 @@
 .collapse label {
   position: relative;
   font-weight: 600;
-  background: #fff;
+  background: #393939;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
     11px 0 rgba(0, 0, 0, 0.08);
-  color: purple;
+  color: #ec7f37;
   display: block;
   margin-bottom: 10px;
   cursor: pointer;
@@ -69,7 +69,7 @@
 .collapse input:checked ~ .collapse-text{
     max-height: 300px;
     padding-bottom: 25px;
-    background: #fff;
+    background: #393939;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
     11px 0 rgba(0, 0, 0, 0.08);
     opacity: 1;
@@ -79,13 +79,14 @@
 .collapse-text h2{
     margin-bottom: 10px;
     padding: 15px 15px 0;
-    color: purple;
+    color: #ec7f37;
     font-family: Montserrat Thin;
 }
 
 .collapse-text p{
     padding-left: 15px;
     padding-right: 15px;
+    color: white;
 }
 
 
@@ -109,10 +110,10 @@
   .collapse2 label {
     position: relative;
     font-weight: 600;
-    background: #fff;
+    background: #393939;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
       11px 0 rgba(0, 0, 0, 0.08);
-    color: purple;
+    color: #ec7f37;
     display: block;
     margin-bottom: 10px;
     cursor: pointer;
@@ -155,7 +156,7 @@
   .collapse2 input:checked ~ .collapse-text2{
       max-height: 300px;
       padding-bottom: 25px;
-      background: #fff;
+      background: #393939;
       box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
       11px 0 rgba(0, 0, 0, 0.08);
       opacity: 1;
@@ -165,13 +166,14 @@
   .collapse-text2 h2{
       margin-bottom: 10px;
       padding: 15px 15px 0;
-      color: purple;
+      color: #ec7f37;
       font-family: Montserrat Thin;
   }
   
   .collapse-text2 p{
       padding-left: 15px;
       padding-right: 15px;
+      color: white;
   }
 
   .wrapper3 {
@@ -194,10 +196,10 @@
   .collapse3 label {
     position: relative;
     font-weight: 600;
-    background: #fff;
+    background: #393939;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
       11px 0 rgba(0, 0, 0, 0.08);
-    color: purple;
+    color: #ec7f37;
     display: block;
     margin-bottom: 10px;
     cursor: pointer;
@@ -240,7 +242,7 @@
   .collapse3 input:checked ~ .collapse-text3{
       max-height: 300px;
       padding-bottom: 25px;
-      background: #fff;
+      background: #393939;
       box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
       11px 0 rgba(0, 0, 0, 0.08);
       opacity: 1;
@@ -250,13 +252,14 @@
   .collapse-text3 h2{
       margin-bottom: 10px;
       padding: 15px 15px 0;
-      color: purple;
+      color: #ec7f37;
       font-family: Montserrat Thin;
   }
   
   .collapse-text3 p{
       padding-left: 15px;
       padding-right: 15px;
+      color: white;
   }
 
   .wrapper4 {
@@ -279,10 +282,10 @@
   .collapse4 label {
     position: relative;
     font-weight: 600;
-    background: #fff;
+    background: #393939;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
       11px 0 rgba(0, 0, 0, 0.08);
-    color: purple;
+    color: #ec7f37;
     display: block;
     margin-bottom: 10px;
     cursor: pointer;
@@ -325,7 +328,7 @@
   .collapse4 input:checked ~ .collapse-text4{
       max-height: 300px;
       padding-bottom: 25px;
-      background: #fff;
+      background: #393939;
       box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
       11px 0 rgba(0, 0, 0, 0.08);
       opacity: 1;
@@ -335,13 +338,14 @@
   .collapse-text4 h2{
       margin-bottom: 10px;
       padding: 15px 15px 0;
-      color: purple;
+      color: #ec7f37;
       font-family: Montserrat Thin;
   }
   
   .collapse-text4 p{
       padding-left: 15px;
       padding-right: 15px;
+      color: white;
   }
 
   .wrapper5{
@@ -364,10 +368,10 @@
   .collapse5 label {
     position: relative;
     font-weight: 600;
-    background: #fff;
+    background: #393939;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
       11px 0 rgba(0, 0, 0, 0.08);
-    color: purple;
+    color: #ec7f37;
     display: block;
     margin-bottom: 10px;
     cursor: pointer;
@@ -410,7 +414,7 @@
   .collapse5 input:checked ~ .collapse-text5{
       max-height: 300px;
       padding-bottom: 25px;
-      background: #fff;
+      background: #393939;
       box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
       11px 0 rgba(0, 0, 0, 0.08);
       opacity: 1;
@@ -420,13 +424,14 @@
   .collapse-text5 h2{
       margin-bottom: 10px;
       padding: 15px 15px 0;
-      color: purple;
+      color: #ec7f37;
       font-family: Montserrat Thin;
   }
   
   .collapse-text5 p{
       padding-left: 15px;
       padding-right: 15px;
+      color: white;
   }
 
   .wrapper6{
@@ -449,10 +454,10 @@
   .collapse6 label {
     position: relative;
     font-weight: 600;
-    background: #fff;
+    background: #393939;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
       11px 0 rgba(0, 0, 0, 0.08);
-    color: purple;
+    color: #ec7f37;
     display: block;
     margin-bottom: 10px;
     cursor: pointer;
@@ -495,7 +500,7 @@
   .collapse6 input:checked ~ .collapse-text6{
       max-height: 300px;
       padding-bottom: 25px;
-      background: #fff;
+      background: #393939;
       box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0, 4px,
       11px 0 rgba(0, 0, 0, 0.08);
       opacity: 1;
@@ -505,11 +510,12 @@
   .collapse-text6 h2{
       margin-bottom: 10px;
       padding: 15px 15px 0;
-      color: purple;
+      color: #ec7f37;
       font-family: Montserrat Thin;
   }
   
   .collapse-text6 p{
       padding-left: 15px;
       padding-right: 15px;
+      color: white;
   }

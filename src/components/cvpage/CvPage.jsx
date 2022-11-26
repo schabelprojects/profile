@@ -25,7 +25,7 @@ function CVPage() {
         <img src={CVSecondPage} alt="" />
       </div>
       <div className="download-btn">
-        <button onClick={(e) => handleDownload(e)}>Download</button>
+        <button className="btn-dwn" onClick={(e) => handleDownload(e)}>Download</button>
       </div>
     </>
   );

@@ -18,3 +18,10 @@
   justify-content: center;
   margin-top: 20px;
 }
+
+.btn-dwn{
+  font-size: 25px;
+  background-color: #393939;
+  color: #ec7f37;
+  width: 20%;
+}

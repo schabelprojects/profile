@@ -4,12 +4,14 @@
 }
 
 body{
-    background-color: teal;
-    font-family: "Times New Roman";
+    background-image: url("../../images/office.png");
+    font-family: Montserrat Thin;
 }
 
+
+
 .title{
-    color: white;
+    color: #393939;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -18,9 +20,9 @@ body{
 
 .navbtn{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    width: 40%;
+    width: 70%;
     height: 100%;
     margin: auto;
     margin-top: 6rem;
@@ -32,7 +34,9 @@ body{
     width: 100%;
     font-size: 20px;
     border-radius: 25px;
-    font-family: "Times New Roman";
+    font-family: Montserrat Thin;
+    background-color: #393939;
+    color: #ec7f37;
 }
 
 .iconprofile{
@@ -41,11 +45,11 @@ body{
     margin: auto;
     height: 30px;
     margin-bottom: 10px;
+    filter: invert(78%) sepia(53%) saturate(5574%) hue-rotate(339deg) brightness(99%) contrast(87%);
 }
 
 .link-nav{
     text-decoration: none;
-    color: black;
     display: flex;
     width: 100%;
 }
